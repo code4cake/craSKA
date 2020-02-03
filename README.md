@@ -3,7 +3,7 @@ Opinionated base react project stemming from Create React App
 
 
 
-#CRA Info
+# CRA Info
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
