@@ -1,5 +1,9 @@
 # craSKA
-Opinionated base react project stemming from Create React App
+
+This is the Lab900 example react app.
+It is based on the typical setup we would use with most of the settings coming from Create React App, adding typescript support and the Material UI library.
+There is not routing/request handling/state management libraries so feel free to pick your favourites to work with (e.g. react-router/axios/mobx) if you feel you need them.
+
 
 
 
