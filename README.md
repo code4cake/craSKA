@@ -7,7 +7,7 @@ There is not routing/request handling/state management libraries so feel free to
 
 
 
-#CRA Info
+# CRA Info
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
