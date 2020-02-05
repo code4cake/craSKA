@@ -18,22 +18,15 @@ export default function CardList() {
   const [isLoading, setLoading] = useState(true)
   const [hasError, setErrors] = useState(false)
 
-  // function fetchData() {
-  //   const data = await res.json()
-
-  //   console.log(`This is the res: ${JSON.stringify(res, null, 2)}`)
-  //   console.log(`This is the data: ${JSON.stringify(data, null, 2)}`)
-
-  //   setData(data)
-  // }
 
   useEffect(() => {
-    async function fetchData() {
-    // const API: string = `https://frontend-1-dot-lab900-exercises.appspot.com/api/v1/user/1/education/0`
-    const res = await fetch(`https://frontend-1-dot-lab900-exercises.appspot.com/api/v1/user/1/education/`)
+    async function fetchData(): Promise<void> {
+    const API: string = `https://frontend-1-dot-lab900-exercises.appspot.com/api/v1/user/1/education/`
+    const res = await fetch(API)
     
     res.json()
     .then(res => setEducations(res))
+    .then(res => setLoading(false))
     .catch(err => setErrors(err))
     }
     fetchData()
@@ -42,9 +35,11 @@ export default function CardList() {
   return (
     <div>
       <ul> Educations
+      <br />
       <span>Has Errors: {JSON.stringify(hasError)}</span>
+      <br />
       <span>Is Loading: {JSON.stringify(isLoading)}</span>
-      
+      <br />
       <code>Educations: {JSON.stringify(educations)}</code> 
         {/* {data.educations.map(item => (
           <li key={item.id}>{educations.city}</li>  
