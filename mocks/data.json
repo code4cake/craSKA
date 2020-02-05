@@ -1,0 +1,37 @@
+// API = https://frontend-1-dot-lab900-exercises.appspot.com/api/v1/user/1/education
+
+[
+  {
+    "id": 0,
+    "schoolName": "string",
+    "fieldOfStudy": "string",
+    "description": "string",
+    "city": "string",
+    "from": "2020-02-05T09:33:50",
+    "to": "2020-02-05T09:33:50",
+    "current": true,
+    "educationType": "BACHELOR"
+  },
+  {
+    "id": 1,
+    "schoolName": "Institut of \uD83E\uDD50",
+    "fieldOfStudy": "Croissant Making",
+    "description": "Brussels University",
+    "city": "Brussels",
+    "from": "2020-02-05T09:33:50",
+    "to": "2020-02-05T09:33:50",
+    "current": true,
+    "educationType": "BACHELOR"
+  },
+  {
+    "id": 2,
+    "schoolName": "The Marix Institut",
+    "fieldOfStudy": "Neo ethics and Oracle 101",
+    "description": "Blue vs Red pill sort of thing",
+    "city": "The Matrix",
+    "from": "2020-02-05T09:33:50",
+    "to": "2020-02-05T09:33:50",
+    "current": false,
+    "educationType": "BACHELOR"
+  }
+]
