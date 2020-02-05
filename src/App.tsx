@@ -2,6 +2,7 @@ import React from 'react';
 // import logo from './logo.svg';
 import './App.css';
 import SimpleCard from './components/card'
+import CardList from './components/card_list'
 
 const App = () => {
   return (
@@ -20,7 +21,8 @@ const App = () => {
           Hello
         </a>
       </header> */}
-      <SimpleCard />
+      {/* <SimpleCard /> */}
+      <CardList />
     </div>
   );
 }
